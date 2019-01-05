@@ -27,7 +27,9 @@ For this project, the second version with 20 idential agents was chosen to be so
 
 ###  The Deep Deterministic Policy Gradient (DDPG)
 
-This project implements the DDPG (Deep Deterministic Policy Gradient) method for continuous action-space, as described in the  paper [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). 
+This project implements the DDPG (Deep Deterministic Policy Gradient) method for continuous action-space, as described in the  paper [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). The algorithm is shown below (copied from the paper):
+
+![DDPG Algorithm](images/DDPG_algorithm.PNG) 
 
 This method is an "Actor-Critic" method, which includes two deep neural networks,one is called the Actor and the other the Critic, where the Actor is used to approximate the optimal policy deterministically, and the Critic is used to evaluate the optimal action value by using the actor's best believed action.     
 could be classified as a DQN method for continuous action space.  The Actor is used as an approximate maximizer to calculate the new target value for training the action value function much in the way [DQN (the Deep Q-Networks)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) does. 
