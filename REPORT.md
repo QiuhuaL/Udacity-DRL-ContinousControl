@@ -44,7 +44,7 @@ During training, at each time step, noise is added that sampled from [The Ornste
 
 ### The Python Code 
 
-The code implemented for this project is based on DDPG example code in the Deep Reinforcement Learning Nanodegree. The following are the files:
+The code implemented for this project is based on the [DDPG code for the pendulum example](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum) in the Deep Reinforcement Learning Nanodegree. The following are the files:
 
 - model.py: In this Python file, the deep Neural Network models are defined. 
 - ddpg_agent.py:  In this Python file, the DQN agent class and a Replay Buffer memory used by the DQN are defined.
