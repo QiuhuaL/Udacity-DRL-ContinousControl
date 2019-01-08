@@ -18,7 +18,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 ### Distributed Training
 
-For this project, two separate versions of the Unity environment was provided by Udacity:
+For this project, two separate versions of the Unity environment were provided by Udacity:
 - The first version contains a single agent.
 - The second version contains 20 identical agents, each with its own copy of the environment.  
 
